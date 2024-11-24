@@ -1,0 +1,32 @@
+header {
+    background-color: #1DB954;
+  }
+  
+  .container {
+    padding-top: 5%;
+  }
+    
+  header h1 {
+    font-size: 2rem;
+  }
+    
+  header img {
+  
+    border: 2px solid white;
+  }
+    
+  .table-dark {
+    background-color: #282828;
+  }
+    
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #383838;
+  }
+    
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color: #282828;
+  }
+    
+  .table-dark th, .table-dark td {
+    border-color: #383838;
+  }

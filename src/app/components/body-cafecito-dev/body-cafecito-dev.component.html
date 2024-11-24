@@ -1,0 +1,54 @@
+<!-- Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center m-auto">
+      <h1>Lista de reproducción</h1>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4 mt-2" *ngFor="let song of songs">
+      <!-- Card -->
+      <div class="card h-100">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img class="card-img-top" src="{{ song.image }}" alt="Card image cap">
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body text-center d-flex flex-column">
+          <h5 class="h5 font-weight-bold"><a href="#" target="_blank">{{song.author}}</a></h5>
+          <p class="mb-0">{{song.title}}</p>
+          <audio id="music" preload="true" class="mt-auto">
+            <source src="#">
+          </audio>
+          <div id="audioplayer" class="mt-auto">
+            <i id="pButton" class="bi bi-play-circle"></i>
+            <div id="timeline">
+              <div id="playhead"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card -->
+    </div>
+  </div>
+</div>
+<!-- Content -->
+
+<!-- CSS -->
+<style>
+  .card {
+    height: 100%;
+  }
+  .card-img-top {
+    max-height: 200px; /* Ajusta el valor según tus necesidades */
+    object-fit: cover;
+  }
+</style>
+
+
+
+
+  

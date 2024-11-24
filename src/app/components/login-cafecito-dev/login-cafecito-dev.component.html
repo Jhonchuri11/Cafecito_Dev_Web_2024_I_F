@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <h1  class="text-white">Lista de reproducción</h1>
+    <div class="col-md-6 m-auto">
+      <ul class="list-group list-group-flush">
+        <li *ngFor="let music of musics"  class="list-group-item list-group-item-action d-flex justify-content-between">
+          <div class="me-auto d-flex p-1">
+            <img class="img-thumbnail" width="100px" src="{{ music.image}}" alt="">
+            <div class="text-start ms-3">
+              <h2>{{music.title}}</h2>
+              <h6>{{music.description}}</h6>
+            </div>
+          </div>
+          <button  class="btn btn-default">
+            <i  class="bi"></i>
+          </button>
+          <button  class="btn btn-default">
+            <i class="bi bi-trash-fill"></i>
+          </button>
+    </li>
+      </ul>
+    </div>
+  </div>
+</div>
+

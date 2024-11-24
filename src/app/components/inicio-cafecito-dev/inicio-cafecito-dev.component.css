@@ -1,0 +1,69 @@
+.container {
+    padding-top: 5%;
+}
+.profile-header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile-header img {
+    border-radius: 50%;
+}
+
+.experience,
+.applications,
+.followers {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.community-section {
+    margin-top: 50px;
+}
+
+.community-card {
+    background-color: #13161b;
+    border: 1px solid #1c1f26;
+    border-radius: 10px;
+}
+
+.community-card .card-body {
+    color: #fff;
+}
+
+.btn-purple {
+    background-color: #5b21b6;
+    border-color: #5b21b6;
+}
+
+.btn-purple:hover {
+    background-color: #4c1d95;
+    border-color: #4c1d95;
+}
+
+.btn-blue {
+    background-color: #1e40af;
+    border-color: #1e40af;
+}
+
+.btn-blue:hover {
+    background-color: #1c4ed8;
+    border-color: #1c4ed8;
+}
+
+
+/* PARA LOS CONTACTOS*/
+
+.contact-box {
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact-box.mypublicinbox {
+    background-color: #212529; /* Color oscuro */
+    color: white;
+}
+.contact-box.email {
+    background-color: #007bff; /* Color azul */
+    color: white;
+}
